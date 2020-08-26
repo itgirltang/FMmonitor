@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FMmonitorDlg</class>
+ <widget class="QWidget" name="FMmonitorDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>968</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FMmonitor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QGroupBox" name="ConMQ">
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="title">
+        <string>胎动测量</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <widget class="QPushButton" name="stop_btn">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>190</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>停止</string>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="lcdNumber">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>70</y>
+          <width>471</width>
+          <height>91</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="start_btn">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>190</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>开始</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="countbtn">
+        <property name="geometry">
+         <rect>
+          <x>274</x>
+          <y>190</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>点击</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="hisbtn">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>20</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>历史记录</string>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="hisrecord">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>50</y>
+          <width>311</width>
+          <height>381</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>270</y>
+          <width>571</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>131</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>点击次数：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="cliknum">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>70</y>
+           <width>51</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>30</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="hintlabel_4">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>70</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>次</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>10</y>
+           <width>121</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>有效胎动：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="valnum">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>70</y>
+           <width>51</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>30</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="hintlabel_2">
+         <property name="geometry">
+          <rect>
+           <x>520</x>
+           <y>70</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>次</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
